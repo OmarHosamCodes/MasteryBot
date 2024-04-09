@@ -1,0 +1,97 @@
+{
+  "Player2": {
+    "name": "Player2",
+    "image": "./assets/GUI/player2.png",
+    "wait_time": 1,
+    "strategy": "Mastery",
+    "deck": {
+      "Mastery": {
+        "name": "Knight",
+        "image": "./assets/cards/Knight.png",
+        "type": "Mastery"
+      },
+      "Cycle": [
+        {
+          "name": "Goblins",
+          "image": "./assets/cards/Goblins.png",
+          "type": "Troop"
+        },
+        {
+          "name": "Arrows",
+          "image": "./assets/cards/Arrows.png",
+          "type": "Spell"
+        },
+        {
+          "name": "Fire Spirit",
+          "image": "./assets/cards/Fire_Spirit.png",
+          "type": "Troop"
+        },
+        {
+          "name": "Skeletons",
+          "image": "./assets/cards/Skeletons.png",
+          "type": "Troop"
+        },
+        {
+          "name": "Bats",
+          "image": "./assets/cards/Bats.png",
+          "type": "Troop"
+        },
+        {
+          "name": "Zap",
+          "image": "./assets/cards/Zap.png",
+          "type": "Spell"
+        }
+      ]
+    }
+  },
+  "Player1": {
+    "name": "Player1",
+    "image": "./assets/GUI/player1.png",
+    "wait_time": 4,
+    "strategy": "Mastery",
+    "deck": {
+      "Mastery": {
+        "name": "Elite Barbarians",
+        "image": "./assets/cards/Elite_Barbarians.png",
+        "type": "Mastery"
+      },
+      "Cycle": [
+        {
+          "name": "Ice Spirit",
+          "image": "./assets/cards/Ice_Spirit.png",
+          "type": "Troop"
+        },
+        {
+          "name": "Princes",
+          "image": "./assets/cards/Princes.png",
+          "type": "Troop"
+        },
+        {
+          "name": "Bats",
+          "image": "./assets/cards/Bats.png",
+          "type": "Troop"
+        },
+        {
+          "name": "Skeletons",
+          "image": "./assets/cards/Skeletons.png",
+          "type": "Troop"
+        },
+        {
+          "name": "Fire Spirit",
+          "image": "./assets/cards/Fire_Spirit.png",
+          "type": "Troop"
+        },
+        {
+          "name": "Electro Spirit",
+          "image": "./assets/cards/Electro_Spirit.png",
+          "type": "Troop"
+        },
+        {
+          "name": "Ice Ball",
+          "image": "./assets/cards/Ice_Ball.png",
+          "type": "Spell"
+        }
+      ]
+    }
+  }
+}

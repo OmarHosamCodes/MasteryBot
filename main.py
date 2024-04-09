@@ -1,25 +1,24 @@
 import time
-
 import pyautogui
-import detect
-import randoms
 
+import utils.randomizer as randomizer
+import utils.recognitionhandler as recognitionhandler
+import utils.eventhandler as eventhandler
 
 pyautogui.useImageNotFoundException(False)
 
 
-class mainClass:
+class instance:
     """
     This class represents the main class of the MasteryBot program.
     It contains methods for starting battles and running the main loop.
     """
 
-    def __init__(self):
-        pass
-
     def main(self):
-        detect.instance().detect_home()
+        # recognitionhandler.instance.detect_home()
         # detect_battle_start()
+        # detect.instance.detect_mastery()
+        eventhandler.instance.switch_account()
 
     def __main__(self):
         """
@@ -31,10 +30,17 @@ class mainClass:
             time.sleep(1)
         while self.number_of_battles > 0:
             self.main()
-            time.sleep(randoms.instance().get_random_delay_time())
+            time.sleep(randomizer.instance.get_random_delay_time())
 
-    number_of_battles = int(1)
+    number_of_battles = int(7)
+
+    player_name = "Player1"
+
+    data = "./env/data.json"
 
 
 if __name__ == "__main__":
-    mainClass().__main__()
+    instance().__main__()
+
+
+# ? pip install --no-binary :all: <package-name>

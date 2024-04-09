@@ -1,35 +1,7 @@
 import random
-from typing import List
 
-mastery_name = "Knight"
-mastery_path = "./cards/Knight.png"
-
-cycle_cards: List[tuple[str, str]] = [
-    ("Goblins", "./cards/Goblins.png"),
-    ("Mini PEKKA", "./cards/Mini_PEKKA.png"),
-    ("Musketeer", "./cards/Fire_Spirit.png"),
-    ("Electro Spirits", "./cards/Electro_Spirit.png"),
-    ("Skeletons", "./cards/Skeletons.png"),
-    ("Zap", "./cards/Zap.png"),
-    ("Bats", "./cards/Bats.png"),
-]
-
-y = 700
-cycle_locations = [(615, y), (680, y), (740, y), (800, y)]
 drag_speeds = [round(random.uniform(0.1, 1.0), 1) for _ in range(20)]
-drag_positions: List[tuple[int, int]] = [
-    (605, 505),
-    (600, 500),
-    (565, 505),
-    (570, 500),
-    (550, 416),
-    (550, 420),
-    (800, 500),
-    (675, 560),
-    (670, 565),
-    (620, 520),
-    (610, 506),
-]
+
 delay_times = [1.0, 1.5, 2.0, 2.5, 3.0]
 
 

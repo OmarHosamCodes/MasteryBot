@@ -1,4 +1,4 @@
-# Mastery Bot V1.0
+# Mastery Bot V2.0
 
 ### This Project is for educational purposes only.
 
@@ -35,9 +35,18 @@ pip install -r requirements.txt
 
 ## Usage
 
+- [NEW] you can create multiple players to switch accounts every time number of battles = 0
+- [NEW] Change the waiting time for each player in deck.json
+
+- [NEW FOR DEVS] new project structure to make it easier to add new features
+
 - Change the number of battles you want to play in the main.py file
 
 - Run the bot
+
+```bash
+cd src
+```
 
 ```bash
 python main.py
